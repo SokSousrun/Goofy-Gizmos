@@ -7,8 +7,6 @@ import Data from "./components/Data"
 import Cart from "./common/Cart/Cart"
 import Footer from "./common/footer/Footer"
 import Sdata from "./components/shops/Sdata"
-import Signup from "./components/Signin-Signup/Sigiup"
-import { Container } from "react-bootstrap"
 
 function App() {
 
@@ -42,11 +40,9 @@ function App() {
   }
 
   return (
-    <Container>
       <Router>
         <Header CartItem={CartItem} />
         <Switch>
-        <Route path="/signup" component={Signup} />
           <Route path='/' exact>
             <Pages productItems={productItems} addToCart={addToCart} shopItems={shopItems} />
           </Route>
@@ -56,7 +52,7 @@ function App() {
         </Switch>
         <Footer />
       </Router>
-    </Container>
+    
   )
 }
 
