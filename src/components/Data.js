@@ -5,7 +5,7 @@ const Data = {
       discount: 50,
       cover: require("../components/IMG/Laptop/IMG1.jpg"),
       name: "ASUS ROG G713RC",
-      discription: "AMD Ryzen™ 7 6800H  (8C/16T,  4.7 GHz Max) RAM: DDR5 8GB 4800Mhz Storage: 512GB NVMe Pcie  Screen: 17.3 FHD (1920 x 1080), IPS Level 144Hz  VGA: NVIDIA GeForce RTX 3050  GDDR6 (4GB) Keyboard: Backlit Chiclet Keyboard RGB 4",
+      discription: "AMD Ryzen™ 7 6800H  (8C/16T,  4.7 GHz Max) RAM: DDR5 8GB 4800Mhz Storage: 512GB NVMe Pcie  Screen: 17.3 FHD (1920 x 1080), IPS Level 144Hz  VGA: NVIDIA GeForce RTX 3050  GDDR6 (4GB) Keyboard: Backlit Chiclet Keyboard ",
       price: 999,
     },
     {

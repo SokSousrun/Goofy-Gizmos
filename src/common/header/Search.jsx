@@ -21,8 +21,10 @@ const Search = ({ CartItem }) => {
           <span>All Category</span>
         </div>
 
-        <div className='icon f_flex width'>
+          <div className='icon f_flex width'>
+          <Link to='/signup'>
           <i className='fa fa-user icon-circle'></i>
+            </Link>
           <div className='cart'>
             <Link to='/cart'>
               <i className='fa fa-shopping-bag icon-circle'></i>
